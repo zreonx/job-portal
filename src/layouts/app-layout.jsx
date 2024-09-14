@@ -1,10 +1,9 @@
-import React from "react";
 import { Outlet } from "react-router-dom";
 
 export default function AppLayout() {
   return (
     <div>
-      Nav
+      <div className='grid-background' />
       <Outlet />
     </div>
   );

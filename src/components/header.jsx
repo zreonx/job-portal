@@ -14,12 +14,13 @@ const Header = () => {
       <Link>
         <img src='/zlogo.png' className='h-14' />
       </Link>
-      <SignedOut>
+      <Button variant='outline'>Login</Button>
+      {/* <SignedOut>
         <SignInButton />
       </SignedOut>
       <SignedIn>
         <UserButton />
-      </SignedIn>
+      </SignedIn> */}
     </nav>
   );
 };

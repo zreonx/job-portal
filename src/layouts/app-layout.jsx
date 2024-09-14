@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 export default function AppLayout() {
   return (
     <>
-      <div className='px-4'>
+      <div className='px-8 lg:px-14'>
         <div className='grid-background' />
         <main className='min-h-screen container mx-auto'>
           <Header />
